@@ -1,10 +1,6 @@
 body{
 font-family: 'Open Sans', sans-serif;
 font-weight: 400;
- 
-}
-a{
-	color: #222;
 }
 
 h2,h3,h4{
@@ -13,9 +9,12 @@ h2,h3,h4{
 
 h1{
 	font-weight: 900;
+	font-size: 6rem;
+		text-transform: uppercase;
+
 }
 a{
-	color: #222;
+	color: #000;
 }
 /* NAVBAR*/
 .navbar{
@@ -24,12 +23,21 @@ a{
 
 .navbar-brand {
 	font-weight: 700;
+	font-size: 1.5rem;
+	
 }
 
 /*HERO*/
+
+.hero{
+	position: relative;
+}
 .hero-text{
 	position: absolute;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
+	color: white;
+	font-size: 6rem;
+	
 }
