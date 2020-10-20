@@ -84,6 +84,8 @@ a{
 .description ul li p{
 	padding:  1.5em;
 	position:relative;
+	margin-left:70px;
+	margin-right:70px;
 }
 .description img{
 	margin-top:  1.8em;
@@ -123,6 +125,7 @@ a{
 .footer ul li p{
    padding: 0.8em;
 	position:relative;
+	
 }
 .footer img{
 	margin-top:  1.8em;
@@ -172,7 +175,10 @@ a:hover {
 }
 .description ul li p{
 	padding: 0.8em;
+	margin-left:0px;
+	margin-right:0px;
 }
+
 /*Footer*/
 
 .footer p{
