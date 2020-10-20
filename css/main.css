@@ -91,9 +91,7 @@ a{
 	margin-top:  1.8em;
 	position:relative;
 }
-.image-description{
-	position: relative;
-}
+
 
 /*Footer*/
 .footer p{
@@ -175,8 +173,7 @@ a:hover {
 }
 .description ul li p{
 	padding: 0.8em;
-	margin-left:0px;
-	margin-right:0px;
+	
 }
 
 /*Footer*/
