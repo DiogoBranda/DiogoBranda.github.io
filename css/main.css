@@ -70,15 +70,12 @@ a{
 	margin-top: 60px;
 	background-color:#EEF4ED;
 	position:relative;
+	margin-bottom:  3em;
 }
 .description ul{
 	margin-top:  1.8em;
     list-style-type: none;
     position:relative;
-}
-.description ul li{
-	margin-bottom:  3em;
-	position:relative;
 }
 
 .description ul li p{
@@ -89,7 +86,7 @@ a{
 	text-align: center;
 	}
 .description img{
-	margin-top:  1.8em;
+	margin-top:  1em;
 	position:relative;
 }
 
