@@ -57,25 +57,157 @@ a{
 .hero-text{
 	position: relative;
 	margin-top: 20px;
-	margin-left: 20%;
-	margin-right: 20%;
+	margin-left: 30%;
+	margin-right: 30%;
 	color: white;
 	font-size: 8px;
+	text-align: center;
 	
 }
 /*Description*/
 .description{
+	text-align:center;
 	margin-top: 60px;
-	position: relative;
 	background-color:#EEF4ED;
+	position:relative;
+}
+.description ul{
+	margin-top:  1.8em;
+    list-style-type: none;
+    position:relative;
+}
+.description ul li{
+	margin-bottom:  3em;
+	position:relative;
+}
+
+.description ul li p{
+	padding:  1.5em;
+	position:relative;
+}
+.description img{
+	margin-top:  1.8em;
+	position:relative;
+}
+.image-description{
+	position: relative;
+}
+
+/*Footer*/
+.footer p{
+	color:#ffffff;
+	  font-size: 8px;
+
+}
+
+.footer{
+	text-align:center;
+	margin-top:  -3em;
+	background-color:#061323;
+	position:relative;
+}
+
+.footer ul {
+	margin-top:  1.8em;
+	align-items: center;
+	display: flex;
+    list-style-type: none;
+    position:relative;
 	
 }
-.row-image li{
-	margin-top: 20px;
-	margin-bottom:  20px;
-	position: relative;
-    display: inline-block;
-    list-style-type: none;
-    padding-right: 20px;
-    vertical-align: middle;
+.footer ul li{
+    margin-bottom:2em;
+	position:relative;
 }
+
+.footer ul li p{
+   padding: 0.8em;
+	position:relative;
+}
+.footer img{
+	margin-top:  1.8em;
+	position:relative;
+	width:24px;
+	height:24px;
+}
+.footer li{
+	margin-right:10px;
+}
+.footer a{
+	  font-size: 8px;
+
+}
+.footer-center{
+	text-align:center;
+	align-items: center;
+	color: #ffffff;
+	font-size: 8px;
+}
+a:visited {
+  color: #ffffff;
+}
+a:hover {
+  text-decoration: none;
+}
+/*Screen change*/
+
+@media only screen and (min-width:1250px){
+	
+/*Description*/
+	
+.description ul{
+	 display: flex;
+	 
+	 align-items: center;
+	margin-top: -1em; 
+}
+
+
+.description li{
+	margin-right:140px;
+}
+
+.description ul li{
+	margin-bottom:2em;
+}
+.description ul li p{
+	padding: 0.8em;
+}
+/*Footer*/
+
+.footer p{
+	color:#ffffff;
+	  font-size: 18px;
+	  margin-bottom:4em;
+
+}
+.footer ul {
+	 display: flex;
+    list-style-type: none;
+    position:relative;
+	
+}
+.footer ul li{
+    margin-bottom:-1em;
+	margin-right:10px
+	
+}
+.footer ul img{
+	margin-top:  12px;
+    position:relative;
+	width:34px;
+	height:34px;
+}
+.footer a{
+	  font-size: 18px;
+		
+}
+.footer-center{
+	text-align:center;
+	align-items: center;
+	color: #ffffff;
+	font-size: 18px;
+}
+
+}	
+
