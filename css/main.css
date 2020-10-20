@@ -84,9 +84,10 @@ a{
 .description ul li p{
 	padding:  1.5em;
 	position:relative;
-	margin-left:300px;
-	margin-right:300px;
-}
+	margin-left: 30%;
+	margin-right: 30%;
+	text-align: center;
+	}
 .description img{
 	margin-top:  1.8em;
 	position:relative;
@@ -173,7 +174,8 @@ a:hover {
 }
 .description ul li p{
 	padding: 0.8em;
-	
+	margin-left:0px;
+	margin-right:0px;
 }
 
 /*Footer*/
