@@ -90,6 +90,10 @@ a{
 	position:relative;
 }
 
+.Inside_P {
+	list-style-type: none;
+	display: inline-block;
+}
 
 /*Footer*/
 .footer p{
@@ -153,7 +157,10 @@ a:hover {
 @media only screen and (min-width:1250px){
 	
 /*Description*/
-	
+	.Inside_P {
+	list-style-type: none;
+	display: block;
+}
 .description ul{
 	 display: flex;
 	 
@@ -163,14 +170,14 @@ a:hover {
 
 
 .description li{
-	margin-right:140px;
+	margin-right:80px;
 }
 
 .description ul li{
 	margin-bottom:2em;
 }
 .description ul li p{
-	padding: 0.8em;
+	padding: 0.2em;
 	margin-left:0px;
 	margin-right:0px;
 }
@@ -180,7 +187,7 @@ a:hover {
 .footer p{
 	color:#ffffff;
 	  font-size: 18px;
-	  margin-bottom:4em;
+	  /*margin-bottom:4em;*/
 
 }
 .footer ul {
@@ -195,7 +202,7 @@ a:hover {
 	
 }
 .footer ul img{
-	margin-top:  12px;
+	margin-top:  0px;
     position:relative;
 	width:34px;
 	height:34px;
